@@ -1,0 +1,320 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    
+}
+.container
+{
+    max-width:1100px;
+    margin: auto;
+}
+/*header*/
+header {
+    height: 700px;
+    background-image:
+    linear-gradient(to bottom, rgba(220, 71, 86, 1), rgba(117, 19, 93, 0.73)),
+    url('../Exam 4 1 psd/img/bg.png');
+  /*  background:  center center no-repeat;*/
+	background-size: cover;
+}
+
+header nav {
+    padding-top: 65px;
+}
+
+header ul {
+    float: right;
+    margin-top: 10px;
+}
+
+header li {
+    display: inline;
+}
+
+header li a {
+    font: 400 1em 'Titillium Web', sans-serif;
+    line-height: 18px;
+    color: #FFF;
+    margin-right: 40px;
+    text-decoration: none;
+}
+header li a:hover{
+    border-bottom: 2px solid #fb414e ;
+    color: #FFF;
+
+    /* background-color: white; */ 
+}
+header section h5 
+{
+    font-size: 16px;
+    color: #ffffff;
+    font-family: "Roboto";
+    font-weight: 700;
+    margin-top: 100px;
+}
+header section h3
+{
+    font-size: 70px;
+    line-height: 90px;
+    color: #ffffff;
+    font-family: "Source Sans Pro";
+    font-weight: 700;
+    margin-top: 20px;
+}
+header section p
+{
+    width: 659px;
+   
+    font-size: 16px;
+    line-height: 28px;
+    color: #ffffff;
+    font-family: "Roboto";
+    font-weight: 300;
+    margin-top: 40px;
+}
+/*section articles*/
+#article1
+{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+#article2
+{
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-color: #f7f7f7;
+}
+#image_div
+{
+    /* margin-right: 50px; */
+    /* background-color: #fb414e;
+    border-radius: 50%; */
+   
+    width: 200px;
+    background:url('../Exam 4 1 psd/img/ellipse.png') no-repeat ;
+    /* background-position: top right; */
+}
+.article_img
+{
+ 
+   bottom: 30px;
+    
+}
+#article1  h4
+{
+    font-size: 32px;
+    color: #1f1f1f;
+    font-family: "Source Sans Pro";
+    font-weight: 700;
+}
+#article1 p
+{
+    width: 950px;
+    font-size: 16px;
+    line-height: 28px;
+    color: #838383;
+    font-family: "Roboto";
+    font-weight: 300;
+    text-align: justify;
+}
+#image_div2
+{
+    /* margin-right: 50px; */
+    /* background-color: #fb414e;
+    border-radius: 50%; */
+
+    width: 200px;
+    background:url('../Exam 4 1 psd/img/ellipse.png') no-repeat ;
+    /* background-position: top right; */
+}
+.article_img
+{
+   
+    bottom: 30px;
+    
+}
+#article2  h4
+{
+    font-size: 32px;
+    color: #1f1f1f;
+    font-family: "Source Sans Pro";
+    font-weight: 700;
+}
+#article2 p
+{
+    width: 900px;
+    font-size: 16px;
+    line-height: 28px;
+    color: #838383;
+    font-family: "Roboto";
+    font-weight: 300;
+    text-align: justify;
+}
+#eigths
+{
+    height: 500px;
+}
+
+#eigths_input
+{
+    width: 1200px;
+    color: white;
+    cursor:pointer; 
+    outline: none;
+    background-color: #fb414e;
+}
+#eigths form table tr 
+{
+   margin-top: 20px;
+}
+footer
+{
+    height: 350px;
+    background-color: #202b30;
+}
+footer nav {
+    padding-top: 65px;
+}
+
+footer ul {
+    float: right;
+    margin-top: 10px;
+}
+
+footer li {
+    display: inline;
+}
+
+footer li a {
+    font: 400 1em 'Titillium Web', sans-serif;
+    line-height: 18px;
+    color: #FFF;
+    margin-right: 40px;
+    text-decoration: none;
+}
+.eights
+{
+    width: 1000px;
+    display: flex;
+    justify-content: space-around;
+}
+
+footer h5 
+{
+    font-size: 16px;
+line-height: 100px;
+color: #ffffff;
+font-family: "Roboto";
+font-weight: 500;
+text-align: center;
+}
+footer p 
+{
+    width: 359px;
+height: 42px;
+font-size: 16px;
+line-height: 28px;
+color: #ffffff;
+font-family: "Roboto";
+font-weight: 300;
+}
+
+
+#footer
+{
+    font-size: 14px;
+line-height: 28px;
+color: #586165;
+font-family: "Roboto";
+font-weight: 300;
+float:right;
+}
+
+/*Responsiv Design*/
+@media only screen and (max-width: 1000px) {
+    *
+    {
+        overflow-x: hidden;
+    }
+    header {
+        overflow-x: hidden;
+        overflow-y: hidden;
+    }
+    header section h3 
+    {
+        font-size: 40px;
+    }
+    #articles p
+    {
+        width: auto;
+    
+    }
+    #eights 
+{
+    height: 700px;
+    overflow-y: hidden;
+}
+#eigths h2
+{
+    font-size: 20px;
+    overflow: hidden;
+}
+#eights p
+{
+    font-size: 10px;
+}
+
+#eigths input::placeholder
+{
+   font-size:10px;
+}
+    header section h3
+{
+    font-size:25px ;
+}
+.eights
+{
+    
+    display: flex;
+    flex-direction: column;
+}
+footer
+{
+    height: 580px;
+    overflow-y: hidden;
+}
+
+footer p 
+{
+    height: 70px;
+    text-align: center;
+    margin-left: 60px;
+}
+footer h5 
+{
+font-size: 16px;
+
+color: #ffffff;
+font-family: "Roboto";
+
+
+}
+.eights
+{
+width: 500px;
+display: flex;
+
+}
+.eights input
+{
+display: block;
+margin: auto;
+}
+#footer
+{
+margin-right: 40px;
+}
+
+  }
+
